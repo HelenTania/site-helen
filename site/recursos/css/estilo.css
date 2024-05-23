@@ -1,74 +1,107 @@
 *{
+	
 	margin: 0;
 	padding: 0;
- }
- /* ---------header---------*/
- 
- header{
-	 
-	  border-bottom: 3px solid black;
-	  border-radius: 30px;
- }
- header:hover{
-	 
-	 background: #c8A2c8;
-	 
- }
- header nav{
-	 
-	 padding: 12px;
- }
-  header nav ul{
-	  
-	  display: flex;	
-      justify-content: space-around;	  
-  }
-  header nav ul li{
-  
+	/*background-image:;*/
+}
+
+/*------body------*/
+body{
+	
+	background: linear-gradient(#D375CB, #4A1B56);
+	
+}
+/*------------header------------*/
+
+header{
+	
+	border-bottom: 3px solid black;
+	border-radius: 30px;
+	
+}
+
+/*header:hover{
+	
+	background: #C8A2C8;
+	
+}*/
+header nav{
+	
+	padding: 10px;
+	
+}
+
+header nav ul{
+	
+	display: flex;
+	justify-content:space-around;
+	
+}
+header nav ul li{
+	
 	padding: 5px;
 	list-style-type: none;
 	
-  }
-  header nav ul li a{
-	  
-	  text-decoration: none;
-  }
-  /*---------body----------*/
-  body{
+}
+header nav ul li a{
 	
-   background:#FF88C7;
-  
-  }
-  
-  /*-------- section---------*/
-  
-  /*section {
-	  
-	  margin-top: 5px;
-	  border: 2px solid black;
-	  width: 50%;
-  }*/
-  section #esquerda{
-	  
-	 
-	  float: right;
-	  width: 45%;
-  }
-  section #direita{
-	   
-	 
-     float: left;
-     width: 50%;	 
-  }
-  section #direita img{
-	  
-	  width: 80%;
-	  margin-left: 20px;
-  }
-  section #esquerda p{
-	  position: relative;
-	  top: 50%;
-	  color: white;
-	 font-size: 50px;
-	  
-  }
+	text-decoration: none;
+	
+}
+
+header nav ul li a:hover{
+	
+	color: #FFC1F8;
+	
+}
+
+/*------------section------------*/
+
+section #esquerda{
+
+	width: 45%;
+
+}
+section #direita{
+   position: relative;
+   left: 700px;
+   bottom: 400px;
+   width: 45%;
+	
+	
+}
+section #esquerda img{
+    margin: 20px 12px ;
+	
+	width: 57%;
+	border-radius: 30px;
+    border: 1px solid white;
+}
+
+section #direita p{
+
+	width: 50%;
+	color: white;
+	font-size: 50px;
+	
+}
+
+section #produtos{
+	
+	display: flex;
+	
+	
+}
+ #produtos img{
+	
+	width: 200px;
+	height: 200px;
+	border-radius: 30px;
+	border: 1px solid white;
+	margin: 10px;
+}
+ #produtos p{
+	 color: white;
+	 font-size: 20px;
+	
+}
