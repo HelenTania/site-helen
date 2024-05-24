@@ -20,11 +20,11 @@ header{
 	
 }
 
-/*header:hover{
+header:hover{
 	
 	background: #C8A2C8;
 	
-}*/
+}
 header nav{
 	
 	padding: 10px;
@@ -37,22 +37,40 @@ header nav ul{
 	justify-content:space-around;
 	
 }
+header nav ul #texto li {
+	list-style-type: none;
+	padding: 5px;
+	
+	
+
+}
+header nav ul #texto{
+	display:flex;
+	width: 70%;
+	border: 3px solid black;
+	justify-content:space-around;
+	
+}
 header nav ul li{
 	
-	padding: 5px;
 	list-style-type: none;
-	
 }
-header nav ul li a{
+header nav ul li img{
+	width:75px;
+	border-radius:35%;
+	border: 2px solid #7C18AD;
+}
+header nav ul #texto li a{
 	
-	text-decoration: none;
-	
+	text-decoration:none;
+	font-size-adjust: 20px;
+	font-family: lucida calligraphy;
+	color: white;
 }
 
-header nav ul li a:hover{
+header nav ul #texto li a:hover{
 	
-	color: #FFC1F8;
-	
+
 }
 
 /*------------section------------*/
@@ -75,7 +93,7 @@ section #esquerda img{
 	
 	width: 57%;
 	border-radius: 30px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 section #direita p{
@@ -97,11 +115,12 @@ section #produtos{
 	width: 200px;
 	height: 200px;
 	border-radius: 30px;
-	border: 1px solid white;
+	border: 2px solid white;
 	margin: 10px;
 }
  #produtos p{
 	 color: white;
 	 font-size: 20px;
+	 font-family:
 	
 }
