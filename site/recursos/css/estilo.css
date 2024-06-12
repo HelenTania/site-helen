@@ -9,6 +9,8 @@
 body{
 	
 	background: linear-gradient(#D375CB, #4A1B56);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	
 }
 /*------------header------------*/
@@ -150,4 +152,42 @@ section #direita p{
 	top: 500px;
 	left: 100px;
 	right: 100px;
+}
+/*-----fade-----*/
+#fade{
+	
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 5;
+}
+#modal_card{
+	position: relative;
+	top: 30%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+    border: 1px solid #4fa81b;
+	border-radius: 12%;
+	width: 300px;
+	height: 150px;
+	z-index: 7;
+	background-color: #fff;
+	box-shadow: 20px 30px 10px #670486;
+	padding: 10px;
+	
+}
+#fade,#modal_card{
+	opacity: 1;
+	pointer-events: all;
+	transition: 0.5s;
+}
+
+#fade.hide,#modal_card.hide{
+	opacity: 0;
+	pointer-events: none;
+	z-index:  -5;
 }
