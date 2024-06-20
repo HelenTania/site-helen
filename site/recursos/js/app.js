@@ -6,13 +6,13 @@ function acessLogin(){
 	if(login === null){
 		
 		
-	let login = getElementById(login).value
-	let senha = getElementById(senha).value
+	let login = document.getElementById('login').value
+	let senha = document.getElementById('senha').value
 	localStorage.setItem("login", login)
 	localStorage.setItem("senha", senha)
 	}
 }
-/*function userValidation(){
+function userValidation(){
 	
 	let logintorage =  localStorage.getItem("login")
 	
@@ -39,7 +39,7 @@ if(( loginStorage == loginInput && passwordStorage == passwordInput)&& loginStor
 		
 		createElementsinId('span', 'wrongPassword', 'login ou senha errada')
 	}
-}*/
+}
 
 function loginModal(){
 	let fade = document.querySelector('#fade')

@@ -176,7 +176,7 @@ section #direita p{
 	height: 150px;
 	z-index: 7;
 	background-color: #fff;
-	box-shadow: 20px 30px 10px #670486;
+	box-shadow: 20px 30px 10px black;
 	padding: 10px;
 	
 }
@@ -184,6 +184,7 @@ section #direita p{
 	opacity: 1;
 	pointer-events: all;
 	transition: 0.5s;
+	
 }
 
 #fade.hide,#modal_card.hide{
@@ -191,3 +192,77 @@ section #direita p{
 	pointer-events: none;
 	z-index:  -5;
 }
+/*-----cadastre-se-----*/
+
+#cadastre-se h2{
+		
+	margin: 50px;
+	font-family: lucida calligraphy;
+	color: white;
+	
+}
+
+#cadastre-se form{
+	
+	margin: 50px;
+	font-family: lucida calligraphy;
+	color: white;
+	
+}
+
+#cadastre-se form .botao{
+	
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: #FF56E9;
+	color: #882CA3;
+	width: 8%;
+	
+}
+#cadastre-se .sair{
+	
+	position: absolute;
+	text-decoration:none;
+	top: 4%;
+	left:90%;
+	font-family: lucida calligraphy;
+	font-size: 60px;
+	color: white;
+	background: none;
+	border: none;
+	
+}
+#X {
+	
+	position: absolute;
+	top: 5%;
+	left: 90%;
+	text-decoration: none;
+	font-size: lucida calligraphy 20px; 
+    color: black;
+}
+#Entrar{
+	
+	background-color: #D375CB;
+	color: white;
+	border-radius:12px;
+	border: 1px solid #4A1B56;
+	margin: 5px;
+	padding: 5px;
+}
+/*#Entrar{
+	color: linear-gradient(#D375CB, #4A1B56);
+	background-color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px; 
+
+	
+	cursor: pointer;
+}
+#Entrar:focus,
+#Entrar:active{
+	outline: none;
+	background-color: darkblue;
+}*/
